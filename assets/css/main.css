@@ -2321,3 +2321,41 @@ button,
       padding: 10px;
     }
   }
+
+/* Responsive container */
+.responsive-table-container {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin-bottom: 24px;
+}
+
+/* Table style */
+.coupon-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+}
+
+.coupon-table th, .coupon-table td {
+  padding: 12px 16px;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 14px;
+}
+
+.coupon-table th {
+  background-color: #f2f2f2;
+  font-weight: 600;
+}
+
+
+
+/* Mobile fix for small screens */
+@media (max-width: 768px) {
+  .coupon-table th,
+  .coupon-table td {
+    padding: 10px 12px;
+    font-size: 13px;
+  }
+}
