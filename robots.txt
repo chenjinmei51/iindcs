@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://iinimpact.com/sitemap.xml
